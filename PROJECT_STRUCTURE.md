@@ -33,7 +33,7 @@ E:\Python DSA Master Agentic
 2. `agent-be.py` starts a Docker code executor, then creates a `RoundRobinGroupChat` with the solver and executor agents.
 3. The task prompt is sent; messages stream until the termination condition (`TERMINATE`) is reached.
 4. The code executor runs the generated Python and prints the final output, then the Docker container stops.
-
+5. Execute agentbe_withfrontend to have streamlit frontend.
 ## Notes
 
 - The Docker code executor uses `/tmp` inside the container as its work directory.
